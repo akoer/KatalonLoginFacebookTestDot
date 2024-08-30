@@ -1,0 +1,2 @@
+# KatalonLoginFacebookTestDot
+Technical Test
