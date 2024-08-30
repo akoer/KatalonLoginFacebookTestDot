@@ -1,0 +1,38 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS001_login,Chrome 128.0.0.0,Login Facebook,,30-08-2024 22:58:49,30-08-2024 22:59:13,24.085s,FAILED
+,,,,,,,
+Test Cases/TC001_negativeLogin_invalidPassword,Chrome 128.0.0.0,,,30-08-2024 22:58:49,30-08-2024 22:58:59,9.890s,PASSED
+"openBrowser("""")",Chrome 128.0.0.0,,,30-08-2024 22:58:49,30-08-2024 22:58:52,2.470s,PASSED
+maximizeWindow(),Chrome 128.0.0.0,,,30-08-2024 22:58:52,30-08-2024 22:58:52,0.334s,PASSED
+"navigateToUrl(""https://www.facebook.com/"")",Chrome 128.0.0.0,,,30-08-2024 22:58:52,30-08-2024 22:58:53,0.870s,PASSED
+"setText(findTestObject(""Object Repository/login_page/emailOrPhonenumber_editText""), findTestData(""user_login"").getValue(1, 1))",Chrome 128.0.0.0,,,30-08-2024 22:58:53,30-08-2024 22:58:54,0.922s,PASSED
+"setText(findTestObject(""Object Repository/login_page/password_editText""), findTestData(""user_login"").getValue(2, 1))",Chrome 128.0.0.0,,,30-08-2024 22:58:54,30-08-2024 22:58:55,0.737s,PASSED
+"click(findTestObject(""Object Repository/login_page/login_button""))",Chrome 128.0.0.0,,,30-08-2024 22:58:55,30-08-2024 22:58:55,0.276s,PASSED
+"verifyElementText(findTestObject(""login_page/errorLoginInvalidPassword_message""), findTestData(""user_login"").getValue(3, 1))",Chrome 128.0.0.0,,,30-08-2024 22:58:55,30-08-2024 22:58:59,4.069s,PASSED
+closeBrowser(),Chrome 128.0.0.0,,,30-08-2024 22:58:59,30-08-2024 22:58:59,0.098s,PASSED
+,,,,,,,
+Test Cases/TC002_negativeLogin_invalidEmail,Chrome 128.0.0.0,,,30-08-2024 22:58:59,30-08-2024 22:59:05,6.361s,PASSED
+"openBrowser("""")",Chrome 128.0.0.0,,,30-08-2024 22:58:59,30-08-2024 22:59:00,0.736s,PASSED
+maximizeWindow(),Chrome 128.0.0.0,,,30-08-2024 22:59:00,30-08-2024 22:59:00,0.325s,PASSED
+"navigateToUrl(""https://www.facebook.com/"")",Chrome 128.0.0.0,,,30-08-2024 22:59:00,30-08-2024 22:59:01,0.803s,PASSED
+"setText(findTestObject(""Object Repository/login_page/emailOrPhonenumber_editText""), findTestData(""user_login"").getValue(1, 2))",Chrome 128.0.0.0,,,30-08-2024 22:59:01,30-08-2024 22:59:01,0.582s,PASSED
+"setText(findTestObject(""Object Repository/login_page/password_editText""), findTestData(""user_login"").getValue(2, 2))",Chrome 128.0.0.0,,,30-08-2024 22:59:01,30-08-2024 22:59:02,0.734s,PASSED
+"click(findTestObject(""Object Repository/login_page/login_button""))",Chrome 128.0.0.0,,,30-08-2024 22:59:02,30-08-2024 22:59:02,0.257s,PASSED
+"verifyElementText(findTestObject(""login_page/errorLoginInvalidEmail_message""), findTestData(""user_login"").getValue(3, 2))",Chrome 128.0.0.0,,,30-08-2024 22:59:02,30-08-2024 22:59:05,2.782s,PASSED
+closeBrowser(),Chrome 128.0.0.0,,,30-08-2024 22:59:05,30-08-2024 22:59:05,0.091s,PASSED
+,,,,,,,
+Test Cases/TC003_negativeLogin_emptyField,Chrome 128.0.0.0,,,30-08-2024 22:59:05,30-08-2024 22:59:10,5.105s,FAILED
+"openBrowser("""")",Chrome 128.0.0.0,,,30-08-2024 22:59:05,30-08-2024 22:59:06,0.708s,PASSED
+maximizeWindow(),Chrome 128.0.0.0,,,30-08-2024 22:59:06,30-08-2024 22:59:06,0.334s,PASSED
+"navigateToUrl(""https://www.facebook.com/"")",Chrome 128.0.0.0,,,30-08-2024 22:59:06,30-08-2024 22:59:07,0.787s,PASSED
+"setText(findTestObject(""Object Repository/login_page/emailOrPhonenumber_editText""), findTestData(""user_login"").getValue(1, 3))",Chrome 128.0.0.0,,,30-08-2024 22:59:07,30-08-2024 22:59:08,0.601s,PASSED
+"setText(findTestObject(""Object Repository/login_page/password_editText""), findTestData(""user_login"").getValue(2, 3))",Chrome 128.0.0.0,,,30-08-2024 22:59:08,30-08-2024 22:59:09,0.715s,PASSED
+"click(findTestObject(""Object Repository/login_page/login_button""))",Chrome 128.0.0.0,,,30-08-2024 22:59:09,30-08-2024 22:59:09,0.264s,PASSED
+"verifyElementText(findTestObject(""login_page/errorLoginInvalidEmail_message""), findTestData(""user_login"").getValue(3, 3))",Chrome 128.0.0.0,,,30-08-2024 22:59:09,30-08-2024 22:59:10,1.652s,FAILED
+,,,,,,,
+Test Cases/TC004_positiveLoginWithEmail,Chrome 128.0.0.0,,,30-08-2024 22:59:10,30-08-2024 22:59:13,2.664s,FAILED
+"openBrowser("""")",Chrome 128.0.0.0,,,30-08-2024 22:59:11,30-08-2024 22:59:11,0.785s,PASSED
+maximizeWindow(),Chrome 128.0.0.0,,,30-08-2024 22:59:11,30-08-2024 22:59:12,0.329s,PASSED
+"navigateToUrl(""https://www.facebook.com/"")",Chrome 128.0.0.0,,,30-08-2024 22:59:12,30-08-2024 22:59:13,0.895s,PASSED
+"setText(findTestObject(""Object Repository/login_page/emailOrPhonenumber_editText""), findTestData(""user_login"").getValue(1, 4))",Chrome 128.0.0.0,,,30-08-2024 22:59:13,30-08-2024 22:59:13,0.567s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/login_page/password_editText""), findTestData(""user_login"").getValue(2, 4))",Chrome 128.0.0.0,,,30-08-2024 22:59:13,30-08-2024 22:59:13,0.042s,FAILED

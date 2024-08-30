@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS001_login" time="29.86" tests="4" failures="0" errors="0">
+   <testsuite name="TS001_login" tests="4" failures="0" errors="0" time="29.86" skipped="0" timestamp="30-08-2024T22:08:32" hostname="archikoerniawan - localhost" id="Test Suites/TS001_login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/archikoerniawan/Katalon/DOT Test Automation/loginFacebook/Reports/20240830_220830/TS001_login/20240830_220830"/>
+         <property name="logFiles" value="/Users/archikoerniawan/Katalon/DOT Test Automation/loginFacebook/Reports/20240830_220830/TS001_login/20240830_220830/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="archikoerniawan - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="9.7.0.223"/>
+         <property name="browser" value="Chrome 128.0.0.0"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="7e7fbc5218b80c02f6ca5a474ce7e34e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/TC001_negativeLogin_invalidPassword" time="9.151" classname="Test Cases/TC001_negativeLogin_invalidPassword" status="PASSED">
+         <system-out><![CDATA[30-08-2024T22:08:32 - [TEST_CASE][PASSED] - Test Cases/TC001_negativeLogin_invalidPassword: Test Cases/TC001_negativeLogin_invalidPassword
+
+30-08-2024T22:08:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+30-08-2024T22:08:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-08-2024T22:08:32 - [MESSAGE][INFO] - User set preference: ['prefs', '{profile.default_content_setting_values.media_stream_mic=1.0, profile.default_content_setting_values.media_stream_camera=1.0, profile.default_content_setting_values.geolocation=1.0, profile.default_content_setting_values.notifications=1.0}']
+
+30-08-2024T22:08:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-08-2024T22:08:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+30-08-2024T22:08:34 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+30-08-2024T22:08:35 - [MESSAGE][PASSED] - Current window maximized
+
+30-08-2024T22:08:35 - [TEST_STEP][PASSED] - navigateToUrl("https://www.facebook.com/"): Navigate to 'https://www.facebook.com/' successfully
+
+30-08-2024T22:08:35 - [MESSAGE][PASSED] - Navigate to 'https://www.facebook.com/' successfully
+
+30-08-2024T22:08:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/login_page/emailOrPhonenumber_editText"), "archi.testdot@gmail.com"): Text 'archi.testdot@gmail.com' is set on object 'Object Repository/login_page/emailOrPhonenumber_editText'
+
+30-08-2024T22:08:36 - [MESSAGE][PASSED] - Text 'archi.testdot@gmail.com' is set on object 'Object Repository/login_page/emailOrPhonenumber_editText'
+
+30-08-2024T22:08:36 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/login_page/password_editText"), "CSt51UwWECc="): Text ****** has been set on object 'Object Repository/login_page/password_editText'
+
+30-08-2024T22:08:36 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/login_page/password_editText'
+
+30-08-2024T22:08:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login_page/login_button")): Object: 'Object Repository/login_page/login_button' is clicked on
+
+30-08-2024T22:08:37 - [MESSAGE][PASSED] - Object: 'Object Repository/login_page/login_button' is clicked on
+
+30-08-2024T22:08:37 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("login_page/errorLoginInvalidPassword_message"), "The password you've entered is incorrect."): Actual text and expected text of test object 'Object Repository/login_page/errorLoginInvalidPassword_message' are matched.
+
+30-08-2024T22:08:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/login_page/errorLoginInvalidPassword_message' are matched.
+
+30-08-2024T22:08:41 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+30-08-2024T22:08:41 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC002_negativeLogin_invalidEmail" time="8.228" classname="Test Cases/TC002_negativeLogin_invalidEmail" status="PASSED">
+         <system-out><![CDATA[30-08-2024T22:08:41 - [TEST_CASE][PASSED] - Test Cases/TC002_negativeLogin_invalidEmail: Test Cases/TC002_negativeLogin_invalidEmail
+
+30-08-2024T22:08:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+30-08-2024T22:08:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-08-2024T22:08:41 - [MESSAGE][INFO] - User set preference: ['prefs', '{profile.default_content_setting_values.media_stream_mic=1.0, profile.default_content_setting_values.media_stream_camera=1.0, profile.default_content_setting_values.geolocation=1.0, profile.default_content_setting_values.notifications=1.0}']
+
+30-08-2024T22:08:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-08-2024T22:08:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+30-08-2024T22:08:41 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+30-08-2024T22:08:42 - [MESSAGE][PASSED] - Current window maximized
+
+30-08-2024T22:08:42 - [TEST_STEP][PASSED] - navigateToUrl("https://www.facebook.com/"): Navigate to 'https://www.facebook.com/' successfully
+
+30-08-2024T22:08:43 - [MESSAGE][PASSED] - Navigate to 'https://www.facebook.com/' successfully
+
+30-08-2024T22:08:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/login_page/emailOrPhonenumber_editText"), "archi@outlook.com"): Text 'archi@outlook.com' is set on object 'Object Repository/login_page/emailOrPhonenumber_editText'
+
+30-08-2024T22:08:43 - [MESSAGE][PASSED] - Text 'archi@outlook.com' is set on object 'Object Repository/login_page/emailOrPhonenumber_editText'
+
+30-08-2024T22:08:43 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/login_page/password_editText"), "NuQQQJrw1QYJLPWAfKR2Qg=="): Text ****** has been set on object 'Object Repository/login_page/password_editText'
+
+30-08-2024T22:08:44 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/login_page/password_editText'
+
+30-08-2024T22:08:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login_page/login_button")): Object: 'Object Repository/login_page/login_button' is clicked on
+
+30-08-2024T22:08:44 - [MESSAGE][PASSED] - Object: 'Object Repository/login_page/login_button' is clicked on
+
+30-08-2024T22:08:44 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("login_page/errorLoginInvalidEmail_message"), "Find your account and log in."): Actual text and expected text of test object 'Object Repository/login_page/errorLoginInvalidEmail_message' are matched.
+
+30-08-2024T22:08:49 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/login_page/errorLoginInvalidEmail_message' are matched.
+
+30-08-2024T22:08:49 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+30-08-2024T22:08:49 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC003_negativeLogin_emptyField" time="5.111" classname="Test Cases/TC003_negativeLogin_emptyField" status="PASSED">
+         <system-out><![CDATA[30-08-2024T22:08:49 - [TEST_CASE][PASSED] - Test Cases/TC003_negativeLogin_emptyField: Test Cases/TC003_negativeLogin_emptyField
+
+30-08-2024T22:08:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+30-08-2024T22:08:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-08-2024T22:08:49 - [MESSAGE][INFO] - User set preference: ['prefs', '{profile.default_content_setting_values.media_stream_mic=1.0, profile.default_content_setting_values.media_stream_camera=1.0, profile.default_content_setting_values.geolocation=1.0, profile.default_content_setting_values.notifications=1.0}']
+
+30-08-2024T22:08:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-08-2024T22:08:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+30-08-2024T22:08:50 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+30-08-2024T22:08:50 - [MESSAGE][PASSED] - Current window maximized
+
+30-08-2024T22:08:50 - [TEST_STEP][PASSED] - navigateToUrl("https://www.facebook.com/"): Navigate to 'https://www.facebook.com/' successfully
+
+30-08-2024T22:08:51 - [MESSAGE][PASSED] - Navigate to 'https://www.facebook.com/' successfully
+
+30-08-2024T22:08:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/login_page/emailOrPhonenumber_editText"), ""): Text '' is set on object 'Object Repository/login_page/emailOrPhonenumber_editText'
+
+30-08-2024T22:08:52 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/login_page/emailOrPhonenumber_editText'
+
+30-08-2024T22:08:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/login_page/password_editText"), ""): Text '' is set on object 'Object Repository/login_page/password_editText'
+
+30-08-2024T22:08:52 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/login_page/password_editText'
+
+30-08-2024T22:08:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login_page/login_button")): Object: 'Object Repository/login_page/login_button' is clicked on
+
+30-08-2024T22:08:53 - [MESSAGE][PASSED] - Object: 'Object Repository/login_page/login_button' is clicked on
+
+30-08-2024T22:08:53 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("login_page/errorLoginInvalidEmail_message"), "Find your account and log in."): Actual text and expected text of test object 'Object Repository/login_page/errorLoginInvalidEmail_message' are matched.
+
+30-08-2024T22:08:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/login_page/errorLoginInvalidEmail_message' are matched.
+
+30-08-2024T22:08:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+30-08-2024T22:08:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC004_positiveLoginWithEmail" time="7.272" classname="Test Cases/TC004_positiveLoginWithEmail" status="PASSED">
+         <system-out><![CDATA[30-08-2024T22:08:54 - [TEST_CASE][PASSED] - Test Cases/TC004_positiveLoginWithEmail: Test Cases/TC004_positiveLoginWithEmail
+
+30-08-2024T22:08:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+30-08-2024T22:08:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-08-2024T22:08:54 - [MESSAGE][INFO] - User set preference: ['prefs', '{profile.default_content_setting_values.media_stream_mic=1.0, profile.default_content_setting_values.media_stream_camera=1.0, profile.default_content_setting_values.geolocation=1.0, profile.default_content_setting_values.notifications=1.0}']
+
+30-08-2024T22:08:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-08-2024T22:08:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+30-08-2024T22:08:55 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+30-08-2024T22:08:55 - [MESSAGE][PASSED] - Current window maximized
+
+30-08-2024T22:08:55 - [TEST_STEP][PASSED] - navigateToUrl("https://www.facebook.com/"): Navigate to 'https://www.facebook.com/' successfully
+
+30-08-2024T22:08:56 - [MESSAGE][PASSED] - Navigate to 'https://www.facebook.com/' successfully
+
+30-08-2024T22:08:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/login_page/emailOrPhonenumber_editText"), "archi.testdot@gmail.com"): Text 'archi.testdot@gmail.com' is set on object 'Object Repository/login_page/emailOrPhonenumber_editText'
+
+30-08-2024T22:08:57 - [MESSAGE][PASSED] - Text 'archi.testdot@gmail.com' is set on object 'Object Repository/login_page/emailOrPhonenumber_editText'
+
+30-08-2024T22:08:57 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/login_page/password_editText"), "NuQQQJrw1QYJLPWAfKR2Qg=="): Text ****** has been set on object 'Object Repository/login_page/password_editText'
+
+30-08-2024T22:08:57 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/login_page/password_editText'
+
+30-08-2024T22:08:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login_page/login_button")): Object: 'Object Repository/login_page/login_button' is clicked on
+
+30-08-2024T22:08:57 - [MESSAGE][PASSED] - Object: 'Object Repository/login_page/login_button' is clicked on
+
+30-08-2024T22:08:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/home_page/search_field"), 0): Object 'Object Repository/home_page/search_field' is present
+
+30-08-2024T22:08:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+30-08-2024T22:09:01 - [MESSAGE][PASSED] - Object 'Object Repository/home_page/search_field' is present
+
+30-08-2024T22:09:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+30-08-2024T22:09:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[30-08-2024T22:08:32 - [TEST_SUITE][PASSED] - TS001_login: Test Cases/TC004_positiveLoginWithEmail]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

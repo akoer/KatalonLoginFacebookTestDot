@@ -1,0 +1,4 @@
+{"testCaseName":"Test Cases/TC001_negativeLogin_invalidPassword","testCaseId":"Test Cases/TC001_negativeLogin_invalidPassword","iterationVariableName":""}
+{"testCaseName":"Test Cases/TC002_negativeLogin_invalidEmail","testCaseId":"Test Cases/TC002_negativeLogin_invalidEmail","iterationVariableName":""}
+{"testCaseName":"Test Cases/TC003_negativeLogin_emptyField","testCaseId":"Test Cases/TC003_negativeLogin_emptyField","iterationVariableName":""}
+{"testCaseName":"Test Cases/TC004_positiveLoginWithEmail","testCaseId":"Test Cases/TC004_positiveLoginWithEmail","iterationVariableName":""}

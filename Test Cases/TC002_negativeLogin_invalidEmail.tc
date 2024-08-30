@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC002_negativeLogin_invalidEmail</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d9249c09-cba6-4088-8f56-7e0ae6b6c791</testCaseGuid>
+</TestCaseEntity>
