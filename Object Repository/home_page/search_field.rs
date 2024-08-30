@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>search_field</name>
+   <tag></tag>
+   <elementGuidId>f5788f77-baea-4322-8a43-6392d1bb2ca0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@placeholder=&quot;Search Facebook&quot;]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.x1lliihq.x6ikm8r.x10wlt62.x1n2onr6.xlyipyv.xuxw1ft</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>3faa7302-40a4-4f1c-b7dd-aa4be95fbdec</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>x1lliihq x6ikm8r x10wlt62 x1n2onr6 xlyipyv xuxw1ft</value>
+      <webElementGuid>a320e280-f9f8-4923-807a-9fb63437475b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Find friends</value>
+      <webElementGuid>d37af951-b038-487a-9f6b-40497d38fa6d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mount_0_0_b5&quot;)/div[1]/div[1]/div[@class=&quot;x9f619 x1n2onr6 x1ja2u2z&quot;]/div[2]/div[@class=&quot;xds687c x1pi30zi x1e558r4 xixxii4 x13vifvy xzkaem6&quot;]/div[@class=&quot;x6s0dn4 x78zum5 x1s65kcs x1n2onr6 x1ja2u2z&quot;]/div[@class=&quot;x6s0dn4 x78zum5 x5yr21d xl56j7k x1emribx xfff67h xu1161g x12ca73t x5vlmd&quot;]/a[@class=&quot;x1i10hfl xjqpnuy xa49m3k xqeqjp1 x2hbi6w x13fuv20 xu3j5b3 x1q0q8m5 x26u7qi x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x1ypdohk xdl72j9 x2lah0s xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r x2lwn1j xeuugli xexx8yu x18d9i69 x16tdsg8 x1hl2dhg xggy1nq x1ja2u2z x1t137rt x87ps6o x1lku1pv x1a2a7pz x6s0dn4 x1tlxs6b x1g8br2z x1gn5b1j x230xth x78zum5 x1q0g3np xc9qbxq xl56j7k xn6708d x1ye3gou x1n2onr6 xh8yej3 x1qhmfi1&quot;]/span[@class=&quot;x193iq5w xeuugli x13faqbe x1vvkbs xlh3980 xvmahel x1n0sxbx x1lliihq x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x x4zkp8e x3x7a5m x6prxxf xvq8zen x1s688f xzsf02u&quot;]/span[@class=&quot;x1lliihq x6ikm8r x10wlt62 x1n2onr6 xlyipyv xuxw1ft&quot;]</value>
+      <webElementGuid>8522545b-d2f1-4826-874c-ed6be8202b7b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='mount_0_0_b5']/div/div/div/div[2]/div[5]/div/div/a/span/span</value>
+      <webElementGuid>b2121f8e-d94b-4b13-84d9-8ab3db1090a3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Notifications'])[1]/preceding::span[10]</value>
+      <webElementGuid>00111418-bd55-4aa0-b150-294c13a7174f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='All'])[1]/preceding::span[11]</value>
+      <webElementGuid>8b9dae58-e737-4b73-ad7e-63bcdce6fece</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Find friends']/parent::*</value>
+      <webElementGuid>0f0d98f3-aad8-4a41-8b7d-68ff00fe25bc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/a/span/span</value>
+      <webElementGuid>85faf29a-b941-4d46-9b45-0453df8b15cd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Find friends' or . = 'Find friends')]</value>
+      <webElementGuid>55cdbfe9-9e42-4cf7-adf9-ac9efd598d5c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
